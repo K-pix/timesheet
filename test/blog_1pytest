@@ -1,0 +1,39 @@
+                       --TITLE--
+
+       "Introduction to pytest: Simplifying Python Testing."
+
+                 ----Table of Contents (TOC)----
+
+"Provide a roadmap of what will be covered in the document/blog post. 
+This helps readers navigate to sections of interest quickly"
+A.Notes
+B.Why use pytest
+C.Installation
+
+                ----Notes----
+
+Pytest provides a comprehensive set of features for testing, including fixtures, parameterized testing, and test discovery.
+It supports various types of testing: unit tests, functional tests, and integration tests.
+Pytest can be extended with plugins to add additional functionality or integrate with other tools.
+
+                ----Why Use pytest----
+
+Simplicity: Writing tests with pytest is straightforward and requires minimal boilerplate code.
+Powerful Assertions: Pytest includes a rich set of assertion helpers that make it easy to write clear and concise test cases.
+Fixture Support: Fixtures in pytest allow you to manage setup and teardown actions for tests, improving code reusability.
+Integration: Pytest integrates well with other testing tools and frameworks, making it versatile for different testing needs.
+Community and Support: It has a large and active community, providing ample resources and plugins for extending functionality.
+
+                 ----Installation----
+
+To install pytest, you can use pip, Python's package installer:
+
+(bash)
+pip install pytest
+Once installed, you can verify the installation by checking the version:
+
+(bash)
+pytest --version
+This will display the installed version of pytest, confirming that it's ready to use in your Python environment.
+
+                       
